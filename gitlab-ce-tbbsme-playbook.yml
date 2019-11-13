@@ -1,0 +1,6 @@
+---
+ - name: Configure gitlab
+   hosts: gitlab.tbbs.me
+   become: true
+   roles:
+    - {role: gitlab-ce}

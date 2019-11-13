@@ -1,0 +1,8 @@
+Install Ansible on your local CentOS, Debian- or Ubuntu-Server
+
+Configure your Gitlab-Environment (at least your Servers-URL) in file: defaults/main.yml.
+
+To install gitlab community-version on current localhost run the localhost-Playbook 
+with the following command afterwards (mind the "," after local Adress, this is correct):
+
+ansible-playbook --connection=local -i 127.0.0.1, gitlab-ce-localhost-playbook.yml

@@ -1,0 +1,6 @@
+---
+ - name: Configure gitlab
+   hosts: localhost
+   become: true
+   roles:
+    - {role: gitlab-ce}
