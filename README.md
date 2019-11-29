@@ -1,5 +1,7 @@
 # Ansible Role: GitLab
 
+**Entwicklung nur auf [GitLab](https://gitlab.com/ToolboxBodensee/toolbox-infrastructure/gitlab-ansible). Auf GitHub befindet sich lediglich ein Mirror**
+
 Installs GitLab, a Ruby-based front-end to Git, on any RedHat/CentOS or Debian/Ubuntu linux system.
 
 GitLab's default administrator account details are below; be sure to login immediately after installation and change these credentials!
